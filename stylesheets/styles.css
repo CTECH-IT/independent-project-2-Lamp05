@@ -1,0 +1,22 @@
+.menu-list {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    list-style-type: none;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+@media all and (max-width: 700px) {
+    .menu-list{
+        flex-direction: column;
+    }
+}
