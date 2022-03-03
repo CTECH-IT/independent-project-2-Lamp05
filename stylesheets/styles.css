@@ -1,3 +1,7 @@
+body {
+    background-image: url("bg.jpg");
+}
+
 .menu-list {
     display: flex;
     flex: 0 1 auto;
@@ -11,8 +15,17 @@
 .menu-item {
     list-style-type: none;
     margin: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    font-weight: 100;
+}
+
+.menu-title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    background-color: whitesmoke 0.5;
 }
 
 @media all and (max-width: 700px) {
