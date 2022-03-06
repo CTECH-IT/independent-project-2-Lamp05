@@ -6,36 +6,6 @@ body {
     background-size: cover;
 }
 
-a:link {
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-a:visited {
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-.menu-list {
-    display: flex;
-    flex: 0 1 auto;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10%;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu-item {
-    list-style-type: none;
-    margin: 20px;
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-    text-shadow: rgba(0, 0, 0, 2) .5px 1px 4.5px;
-}
-
 .menu-title {
     text-align: left;
     text-indent: 2.5%;
@@ -48,10 +18,4 @@ a:visited {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-weight: 100;
-}
-
-@media all and (max-width: 700px) {
-    .menu-list{
-        flex-direction: column;
-    }
 }
