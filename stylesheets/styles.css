@@ -24,6 +24,10 @@ body {
     justify-content: space-around;
 }
 
+h2 {
+    margin: 0px;
+}
+
 .Nature-Center {
     display: flex;
     flex-direction: column;
@@ -118,5 +122,11 @@ body {
 }
 
 .NC-Collapse {
-    
+    background-color: #758656;
+    outline: none;
+    border: none;
+    color: whitesmoke;
+    text-shadow: 0px 0px 5px black;
+    font-size: 25px;
+    text-align: left;
 }
