@@ -4,6 +4,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    flex-direction: row;
 }
 
 .menu-title {
@@ -18,4 +20,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-weight: 100;
+}
+
+.Nature-Center {
+    display: flex;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
 }
