@@ -23,24 +23,24 @@ body {
 .main-content {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .Nature-Center {
     display: flex;
     flex-direction: column;
-    max-width: 30%;
+    max-width: 25%;
+    margin: 20px;
 }
 
 .NC-Items {
     list-style-type: none;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
-.EP-Img {
-    height: 100px;
-}
-
-.AA-Img {
+.NC-Img {
     height: 100px;
 }
 
@@ -52,7 +52,8 @@ body {
 .Photo-Gallery {
     display: flex;
     flex-direction: column;
-    max-width: 30%;
+    margin: 20px;
+    max-width: 600px;
 }
 
 .PG-Items {
@@ -61,29 +62,40 @@ body {
     overflow-x: auto;
     list-style-type: none;
     padding: 0px;
+    flex: auto;
 }
 
 .Nature-Center-Front {
     align-self: center;
-    height: 100px;
+    height: 250px;
+    padding-right: 20px;
 }
 
 .Marsh {
     align-self: center;
-    height: 100px;
+    height: 250px;
+    padding-right: 20px;
 }
 
 .Horus {
     align-self: center;
-    height: 100px;
+    height: 250px;
+    padding-right: 20px;
 }
 
 .Field {
     align-self: center;
-    height: 100px;
+    height: 250px;
+    padding-right: 20px;
 }
 
 .Cave {
     align-self: center;
-    height: 100px;
+    height: 250px;
+}
+
+.About {
+    display: block;
+    margin: 20px;
+    max-width: 600px;
 }
