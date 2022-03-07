@@ -4,8 +4,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    flex-direction: row;
 }
 
 .menu-title {
@@ -22,12 +20,70 @@ body {
     font-weight: 100;
 }
 
+.main-content {
+    display: flex;
+    flex-direction: row;
+}
+
 .Nature-Center {
     display: flex;
     flex-direction: column;
+    max-width: 30%;
+}
+
+.NC-Items {
+    list-style-type: none;
+    padding: none;
+}
+
+.EP-Img {
+    height: 100px;
+}
+
+.AA-Img {
+    height: 100px;
 }
 
 .Container {
     display: flex;
     flex-direction: column;
+}
+
+.Photo-Gallery {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+.PG-Items {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    list-style-type: none;
+    padding: none;
+}
+
+.Nature-Center-Front {
+    align-self: center;
+    height: 100px;
+}
+
+.Marsh {
+    align-self: center;
+    height: 100px;
+}
+
+.Horus {
+    align-self: center;
+    height: 100px;
+}
+
+.Field {
+    align-self: center;
+    height: 100px;
+}
+
+.Cave {
+    align-self: center;
+    height: 100px;
 }
