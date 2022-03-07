@@ -47,11 +47,6 @@ h2 {
     flex-direction: column;
 }
 
-.NC-Img {
-    width: 300px;
-    margin-top: 25px;
-}
-
 .Container {
     display: flex;
     flex-direction: column;
@@ -135,4 +130,16 @@ h2 {
 
 .active, .NC-Collapse:hover {
     background-color: rgb(117, 134, 86, 0.75);
-  }
+}
+
+.NC-Content {
+    position: relative;
+    height: 0px;
+    font-size: 25px;
+    text-align: justify;
+    width: 400px;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 300px;
+    margin-top: 25px;
+}
