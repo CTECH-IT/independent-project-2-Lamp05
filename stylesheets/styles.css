@@ -24,6 +24,7 @@ body {
 
 .Nature-Center {
     display: flex;
+    flex-direction: column;
 }
 
 .Container {
