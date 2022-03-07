@@ -1,4 +1,4 @@
-@font-face { font-family: Wagner; src: url('font/NT Wagner (only personal use).otf'); }
+@font-face { font-family: Wagner; src: url('fonts/NT\ Wagner\ \(only\ personal\ use\).otf'); }
 
 body {
     background: url(../img/bg.jpg) no-repeat center center fixed;
@@ -27,8 +27,13 @@ body {
     justify-content: space-around;
 }
 
+h1 {
+    font-family: 'Wagner';
+}
+
 h2 {
     margin: 0px;
+    font-family: 'Wagner';
 }
 
 .Nature-Center {
